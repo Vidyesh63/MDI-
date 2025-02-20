@@ -1,0 +1,30 @@
+/* App.css */
+
+/* General reset and body styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+
+/* Style the container for better centering */
+.App > .dashboard-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px;
+}
